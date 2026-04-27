@@ -11,8 +11,7 @@ The topology consists of a localized Branch Network (Layer 2 Switching & Layer 3
 ## Phase 1: Enterprise Device Hardening
 All network infrastructure must be secured against unauthorized access before routing begins. Passwords are encrypted, and SSH is enforced for remote VTY access.
 
-(Screenshot 2: CLI showing the custom Warning Banner and User Access Verification prompt)
-
+![Device Hardening](images/2%20Device%20Security.png)
 ## Phase 2: Branch Network Segmentation (PCI-DSS Compliance)
 To prevent the lateral movement of malware from Back Office PCs to the payment systems, the network is segmented using VLANs and an 802.1Q "Router-on-a-Stick" configuration.
 
