@@ -6,7 +6,7 @@ Retail networks require absolute stability for Point-of-Sale (POS) systems, stri
 ## Network Architecture & Topology
 The topology consists of a localized Branch Network (Layer 2 Switching & Layer 3 Routing) traversing an ISP public network to reach the Corporate Data Center.
 
-(Screenshot 1: Packet Tracer Workspace showing HQ, ISP, and Branch Routers, Switches, and Endpoints)
+(images/1 Architecture.png)
 
 ## Phase 1: Enterprise Device Hardening
 All network infrastructure must be secured against unauthorized access before routing begins. Passwords are encrypted, and SSH is enforced for remote VTY access.
