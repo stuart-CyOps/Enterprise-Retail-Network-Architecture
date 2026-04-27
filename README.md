@@ -25,7 +25,7 @@ A simulated ISP router was configured to handle public traffic. Default static r
 ## Phase 4: Site-to-Site IPsec VPN (Zero-Trust Transport)
 All financial POS data traversing the public ISP must be encrypted. A Site-to-Site IPsec tunnel was built using AES-256 encryption and SHA hashing (Diffie-Hellman Group 5) to guarantee data integrity and confidentiality.
 
-(Screenshot 6: Output of show crypto ipsec sa proving packets are being actively encapsulated/encrypted)
+![IPsec VPN](images/6%20Verification%20of%20Encryption.png)
 
 ## Phase 5: Testing, Verification & DHCP Fulfillment
 
