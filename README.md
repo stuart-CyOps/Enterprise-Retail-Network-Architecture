@@ -31,7 +31,7 @@ All financial POS data traversing the public ISP must be encrypted. A Site-to-Si
 
 Because IPsec VPNs are policy-based, an extended ping was used to simulate POS traffic and wake the tunnel up. Once established, the POS PC successfully pulled its IP address centrally from the Brackenfell Data Center via DHCP.
 
-(Screenshot 5: POS-PC1 successfully receiving 192.168.10.10 via DHCP through the encrypted tunnel)
+![DHCP Success](images/5%20VPN%20&%20DHCP%20Success.png)
 
 ## Phase 6: Threat Mitigation (Port Security)
 
