@@ -20,7 +20,7 @@ To prevent the lateral movement of malware from Back Office PCs to the payment s
 ## Phase 3: Core Routing & ISP Setup
 A simulated ISP router was configured to handle public traffic. Default static routes were configured on the Branch and HQ edge routers to push all non-local traffic out to the internet.
 
-(Screenshot 4: Successful ping from Branch-R1 to HQ-R1's Public WAN IP 203.0.113.2, proving ISP traversal)
+![Core Routing & ISP Setup](images/4%20ISP%20Reachability%20(Crucial%20Step).png)
 
 ## Phase 4: Site-to-Site IPsec VPN (Zero-Trust Transport)
 All financial POS data traversing the public ISP must be encrypted. A Site-to-Site IPsec tunnel was built using AES-256 encryption and SHA hashing (Diffie-Hellman Group 5) to guarantee data integrity and confidentiality.
