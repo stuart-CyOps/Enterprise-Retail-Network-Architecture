@@ -15,7 +15,7 @@ All network infrastructure must be secured against unauthorized access before ro
 ## Phase 2: Branch Network Segmentation (PCI-DSS Compliance)
 To prevent the lateral movement of malware from Back Office PCs to the payment systems, the network is segmented using VLANs and an 802.1Q "Router-on-a-Stick" configuration.
 
-(Screenshot 3: Output of show ip interface brief showing virtual subinterfaces dynamically routing VLAN traffic)
+![Network Segmentation](images/3%20Network%20Segmentation.png)
 
 ## Phase 3: Core Routing & ISP Setup
 A simulated ISP router was configured to handle public traffic. Default static routes were configured on the Branch and HQ edge routers to push all non-local traffic out to the internet.
