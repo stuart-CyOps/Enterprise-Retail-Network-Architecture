@@ -37,7 +37,7 @@ Because IPsec VPNs are policy-based, an extended ping was used to simulate POS t
 
 To protect against physical breaches (e.g., an attacker unplugging a till and connecting a rogue device), Port Security was enforced on the access switch, locking the port to the Till's specific MAC address.
 
-(Screenshot 7: Output of show port-security int f0/1 showing the port secured and actively restricting unauthorized MAC addresses)
+![Port Security](images/7%20Physical%20Hardening.png)
 
 # Key Takeaways & Business Value
 
